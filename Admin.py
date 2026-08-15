@@ -142,14 +142,14 @@ class Admin:
                     print(f"Borrowed by: {book.borrowed_by}")
                     print(f"Borrow date: {book.borrow_date}")
                     print(f"Expected return date: {book.return_date}")
-                print("=" * 100)
+                print("=" * 110)
         else:
             print("No books found.")
 
 admins = []
 
 def add_admin():
-    admin1 = Admin("Hossein", random.randint(1, 100), "hossein!#*&")
-    admin2 = Admin("Ali", random.randint(101, 200), "ali!#^)")
+    admin1 = Admin("Alice", random.randint(1, 100), "alice123")
+    admin2 = Admin("Charlie", random.randint(101, 200), "charlie123")
     admins.append(admin1)
     admins.append(admin2)
