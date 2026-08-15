@@ -5,8 +5,7 @@ from Admin import admins
 from Admin import add_admin
 from data_handler import data_handler
 from datetime import datetime, timedelta
-print(admins)
-print(members)
+
 def user_panel():
     print("1. Borrow Book")
     print("2. Return Book")
